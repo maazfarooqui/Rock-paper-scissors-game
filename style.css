@@ -1,0 +1,71 @@
+body{
+    background-color: aliceblue;
+    display: flex;
+    margin: 0;
+}
+
+.left{
+    
+    background-color:  rgb(173, 191, 207);
+    width: 50%;
+    height: 100vh;
+}
+
+.right{
+    background-color:  rgb(232, 148, 118);
+    width: 50%;
+}
+
+.player{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5vh;
+}
+
+.computer{
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 5vh;
+}
+
+.selection{
+    height: 70px;
+    width: 100px;
+}
+
+.computerselection{
+    height: 70px;
+    width: 100px;
+}
+
+
+.playerchoice, .computerchoice{
+    display: flex;
+    justify-content: center;
+ 
+    position: relative;
+    top: 70vh;
+    gap: 20px;
+}
+
+
+.score_display{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 20vh;
+    width: 400px;
+}
+
+.score{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 30vh;
+    gap: 50px;
+    left: -40px;
+    
+}
