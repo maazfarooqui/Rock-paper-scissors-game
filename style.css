@@ -53,11 +53,24 @@ body{
 
 
 .score_display{
-    display: flex;
-    justify-content: center;
+    display: flexbox;
+    justify-content: flex-start;
     position: relative;
     top: 20vh;
     width: 400px;
+}
+.score_display h1{
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    width: 75%;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 0;
+    position: relative;
+   
 }
 
 .score{
@@ -66,6 +79,33 @@ body{
     position: relative;
     top: 30vh;
     gap: 50px;
-    left: -40px;
     
+    
+}
+
+.wincount{
+    display: flex;
+    gap: 20px;
+    position: relative;
+    left: 30px;
+   
+    
+}
+
+.playerwin{
+    background-color: seagreen;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.computerwin{
+    background-color: skyblue;
+    width: 120px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
